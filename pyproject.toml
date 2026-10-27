@@ -1,0 +1,12 @@
+[project]
+name = "code-test"
+version = "0.1.0"
+description = "Minimal FastAPI test project"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi",
+    "pydantic",
+    "torch",
+    "transformers>=4.51.0",
+    "uvicorn",
+]
